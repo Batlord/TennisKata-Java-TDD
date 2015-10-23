@@ -27,4 +27,12 @@ public class TennisGameTest
 		this.tennisgame.receiverMark();
 		Assert.assertEquals(this.tennisgame.getScore(), "love-fifteen");
 	}
+	
+	@Test
+	public void testIfServerAndReceiverMarkFifteen_All()
+	{
+		this.tennisgame.serverMark();
+		this.tennisgame.receiverMark();
+		Assert.assertEquals(this.tennisgame.getScore(), "fifteen-all");
+	}
 }

@@ -9,16 +9,22 @@ public class TennisGameTest
 	TennisGame tennisgame = new TennisGame();
 
 	@Test
-	public void testSiScore0A0EtLoveAll()
+	public void testIfStartGameLove_All()
 	{
 		Assert.assertEquals(this.tennisgame.getScore(), "love-all");
 	}
 	
 	@Test
-	public void testSiServeurMarque15A0EtFifteenLove()
+	public void testIfServerMarkFifteen_Love()
 	{
 		this.tennisgame.serverMark();
 		Assert.assertEquals(this.tennisgame.getScore(), "fifteen-love");
 	}
 	
+	@Test
+	public void testIfReceiverMarkLove_Fifteen()
+	{
+		this.tennisgame.receiverMark();
+		Assert.assertEquals(this.tennisgame.getScore(), "love-fifteen");
+	}
 }

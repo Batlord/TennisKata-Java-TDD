@@ -17,7 +17,7 @@ public class TennisGameTest
 	@Test
 	public void testSiServeurMarque15A0EtFifteenLove()
 	{
-		this.tennisgame.serverScore();
+		this.tennisgame.serverMark();
 		Assert.assertEquals(this.tennisgame.getScore(), "fifteen-love");
 	}
 	

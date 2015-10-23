@@ -25,4 +25,8 @@ package fr.iutvalence.info.dut.m3105.tenniskata.tdd;
 			this.score = "love-fifteen";
 		}
 		
+		public void serverAndReceiverMarks()
+		{
+			
+		}
 	}

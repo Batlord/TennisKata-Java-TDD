@@ -13,6 +13,12 @@ public class TennisGameTest
 	{
 		Assert.assertEquals(this.tennisgame.getScore(), "love-all");
 	}
-
+	
+	@Test
+	public void testSiServeurMarque15A0EtFifteenLove()
+	{
+		this.tennisgame.serverScore();
+		Assert.assertEquals(this.tennisgame.getScore(), "fifteen-love");
+	}
 	
 }

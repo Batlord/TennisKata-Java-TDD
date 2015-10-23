@@ -15,8 +15,4 @@ package fr.iutvalence.info.dut.m3105.tenniskata.tdd;
 			return this.score;
 		}
 		
-		public static void main(String[] args)
-		{
-			
-		}
 	}

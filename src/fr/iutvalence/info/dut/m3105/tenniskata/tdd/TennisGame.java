@@ -18,5 +18,10 @@ package fr.iutvalence.info.dut.m3105.tenniskata.tdd;
 		public void serverMark() 
 		{
 			this.score = "fifteen-love";
-		}	
+		}
+		
+		public void receiverMark() 
+		{
+			this.score = "love-fifteen";
+		}
 	}
